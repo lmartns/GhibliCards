@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;1,400&display=swap');
+
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    color: #fff;
+    background: rgb(43, 43, 43);
+    background: -moz-linear-gradient(90deg, rgba(43, 43, 43, 1) 0%, rgba(61, 61, 61, 1) 50%, rgba(71, 71, 71, 1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(43, 43, 43, 1) 0%, rgba(61, 61, 61, 1) 50%, rgba(71, 71, 71, 1) 100%);
+    background: linear-gradient(90deg, rgba(43, 43, 43, 1) 0%, rgba(61, 61, 61, 1) 50%, rgba(71, 71, 71, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#2b2b2b", endColorstr="#474747", GradientType=1);
+}
+
+.card-1 {
+    background-image: linear-gradient(#333, #333);
+    overflow: hidden;
+    border-radius: 16px;
+    max-width: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all .7s;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.card-1:hover {
+    background-image: linear-gradient(#5B4D8C, #3C3F40);
+
+}
+
+.card-1 .img-1 {
+    background-image: url('./assets/totoro.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 360px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    opacity: .6;
+    transition: all .7s;
+    z-index: 2;
+}
+
+.card-1:hover .img-1 {
+    opacity: 1;
+    width: 450px;
+}
+
+.card-1 .img-1 span {
+    font-size: 24px;
+    font-style: bold;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.card-1 .content {
+    padding: 0 20px;
+    overflow: hidden;
+    height: 0;
+    transition: all .7s;
+    transform: translateY(30px);
+}
+
+.card-1:hover .content {
+    padding: 20px;
+    height: 260px;
+    transform: translateY(0);
+}
+
+.card-1 .content p {
+    margin-bottom: 0;
+}
+
+.card-1 .content .title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.card-1 .content .desc {
+    font-size: 15px;
+    font-weight: 100;
+    opacity: .7;
+}
+
+.card-1 .arrow {
+    padding: 15px;
+    font-size: 28px;
+    transform: rotate(-180deg);
+    transition: all .7s;
+}
+
+.card-1:hover .arrow {
+    transform: rotate(0);
+}
+
+.card-1 .img-1 {
+    color: #ffe600;
+}
+
+.card-2 {
+    background-image: linear-gradient(#333, #333);
+    overflow: hidden;
+    border-radius: 16px;
+    max-width: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all .7s;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.card-2:hover {
+    background-image: linear-gradient(#BF2A2A, #8094A6);
+
+}
+
+.card-2 .img-2 {
+    background-image: url('./assets/mononoke.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 360px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    opacity: .6;
+    transition: all .7s;
+    z-index: 2;
+}
+
+.card-2:hover .img-2 {
+    opacity: 1;
+    width: 450px;
+}
+
+.card-2 .img-2 span {
+    font-size: 24px;
+    font-style: bold;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.card-2 .content {
+    padding: 0 20px;
+    overflow: hidden;
+    height: 0;
+    transition: all .7s;
+    transform: translateY(30px);
+}
+
+.card-2:hover .content {
+    padding: 20px;
+    height: 260px;
+    transform: translateY(0);
+}
+
+.card-2 .content p {
+    margin-bottom: 0;
+}
+
+.card-2 .content .title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.card-2 .content .desc {
+    font-size: 15px;
+    font-weight: 100;
+    opacity: .7;
+}
+
+.card-2 .arrow {
+    padding: 15px;
+    font-size: 28px;
+    transform: rotate(-180deg);
+    transition: all .7s;
+}
+
+.card-2:hover .arrow {
+    transform: rotate(0);
+}
+
+.card-2 .img-2 {
+    color: #000000;
+}
+
+.card-3 {
+    background-image: linear-gradient(#333, #333);
+    overflow: hidden;
+    border-radius: 16px;
+    max-width: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all .7s;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.card-3:hover {
+    background-image: linear-gradient(#03738C, #68A6A0);
+
+}
+
+.card-3 .img-3 {
+    background-image: url('./assets/chihiro2.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 360px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    opacity: .6;
+    transition: all .7s;
+    z-index: 2;
+}
+
+.card-3:hover .img-3 {
+    opacity: 1;
+    width: 450px;
+}
+
+.card-3 .img-3 span {
+    font-size: 24px;
+    font-style: bold;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.card-3 .content {
+    padding: 0 20px;
+    overflow: hidden;
+    height: 0;
+    transition: all .7s;
+    transform: translateY(30px);
+}
+
+.card-3:hover .content {
+    padding: 20px;
+    height: 260px;
+    transform: translateY(0);
+}
+
+.card-3 .content p {
+    margin-bottom: 0;
+}
+
+.card-3 .content .title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.card-3 .content .desc {
+    font-size: 15px;
+    font-weight: 100;
+    opacity: .7;
+}
+
+.card-3 .arrow {
+    padding: 15px;
+    font-size: 28px;
+    transform: rotate(-180deg);
+    transition: all .7s;
+}
+
+.card-3:hover .arrow {
+    transform: rotate(0);
+}
+
+.card-3 .img-3 {
+    color: #ff0000;
+}
